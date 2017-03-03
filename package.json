@@ -1,0 +1,35 @@
+{
+  "name": "comment-widget",
+  "version": "1.0.0",
+  "description": "pluggable commenting widget using reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp normal",
+    "build-server": "browserify --node server/server.js -o server/server.min.js",
+    "start": "npm run build && node server/server",
+    "start-compiled": "npm run build && npm run build-server && node server/server.min"
+  },
+  "keywords": [
+    "reactjs",
+    "node",
+    "express",
+    "mongo"
+  ],
+  "author": "Anish Dhamodaran",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "browserify": "^13.1.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "jquery": "^3.1.0",
+    "moment": "^2.15.0",
+    "path": "^0.12.7",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

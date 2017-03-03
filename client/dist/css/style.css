@@ -1,0 +1,46 @@
+body {
+    font-family: verdana;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-size: 120%;
+}
+.vote {
+    cursor: pointer;
+}
+.dp {
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+.dp-small {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+.inline {
+    display: inline;
+}
+.row {
+    /*background: white;*/
+    margin-top: 10px;
+    /*border: solid 1px #ccc;*/
+}
+.comment-row {
+    background: #f9f9f9;
+    padding: 10px;
+}
+.reply-row {
+    background: #f2f2f2;
+    padding: 10px;
+}
+.row-underline {
+    border-bottom: solid 1px #ccc;
+}
+.row-underline-normal {
+    border-bottom: solid 1px #e1e2e3;
+}
+.time {
+    color: green;
+    font-style: italic;
+    margin-right: 10px;
+}
